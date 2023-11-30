@@ -19,6 +19,7 @@ public class EndButton : MonoBehaviour
 
     public void End()
     {
+        //클라이언트 종료
         Application.Quit();
     }
 }

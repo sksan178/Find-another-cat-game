@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class HintButton : MonoBehaviour
 {
-    private List<int> usedIndices = new List<int>();
-    public new SpriteRenderer[] renderer = new SpriteRenderer[20];
+    private List<int> usedIndices = new List<int>();        //int형 리스트 정의
+    public new SpriteRenderer[] renderer = new SpriteRenderer[20];     //SpriteRenderer 배열 정의
 
     void Start()
     {
-        // 초기화 코드를 여기에 추가할 수 있습니다.
+        
     }
 
     void Update()
     {
-        // 필요한 경우 추가적인 로직을 작성하세요
+        
     }
 
     public void hintOnClick()
